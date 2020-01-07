@@ -13,16 +13,18 @@
   <component name="ChangeListManager">
     <list default="true" id="3f2ad0b8-a635-4414-ab6b-643fef1a760d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Carre.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cercle.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rectangle.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vecteur.h.gch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canevas.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coordonnee.h.gch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/couche.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forme.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vecteur.h" beforeDir="false" afterPath="$PROJECT_DIR$/Vecteur.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/canevas.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/canevas.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/couche.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/couche.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/tests.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Graphicus_02.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Graphicus_02.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Graphicus_02.exe.stackdump" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Graphicus_02.exe.stackdump" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forme.h" beforeDir="false" afterPath="$PROJECT_DIR$/forme.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,7 +59,7 @@
       <recent name="C:\Users\Pascal\Documents\UdeS\S2\APP1\Graphicus-02" />
     </key>
   </component>
-  <component name="RunManager" selected="Makefile.MakeFile (4)">
+  <component name="RunManager" selected="CMake Application.Graphicus_02">
     <configuration name="Graphicus_02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graphicus_02" TARGET_NAME="Graphicus_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Graphicus_02" RUN_TARGET_NAME="Graphicus_02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -125,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578333812547</updated>
       <workItem from="1578333813862" duration="19392000" />
-      <workItem from="1578369553602" duration="3263000" />
+      <workItem from="1578369553602" duration="9303000" />
     </task>
     <servers />
   </component>
@@ -153,25 +156,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578370796098" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1578371039122">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1578418771445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578371039122" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578418771445" />
     <state width="724" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578340946790" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1578371039121">
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1578418771445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578371039121" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578418771445" />
     <state width="724" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578340946790" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1578371039121">
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1578418771445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578371039121" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578418771445" />
     <state width="724" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578340946790" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1578371039121">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1578418771445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578371039121" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578418771445" />
     <state width="724" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578340946790" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1578369255888">
       <screen x="0" y="0" width="1536" height="824" />

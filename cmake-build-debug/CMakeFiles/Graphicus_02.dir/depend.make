@@ -33,7 +33,6 @@ CMakeFiles/Graphicus_02.dir/forme.cpp.o: ../coordonnee.h
 CMakeFiles/Graphicus_02.dir/forme.cpp.o: ../forme.cpp
 CMakeFiles/Graphicus_02.dir/forme.cpp.o: ../forme.h
 
-CMakeFiles/Graphicus_02.dir/main.cpp.o: ../Rectangle.h
 CMakeFiles/Graphicus_02.dir/main.cpp.o: ../Vecteur.h
 CMakeFiles/Graphicus_02.dir/main.cpp.o: ../canevas.h
 CMakeFiles/Graphicus_02.dir/main.cpp.o: ../coordonnee.h
