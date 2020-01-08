@@ -62,9 +62,9 @@ void Tests::tests_application_cas_02()
    cout << "TESTS APPLICATION (CAS 02)" << endl;  
     // Il faut ajouter les operations realisant ce scenario de test.
 
-    std::filebuf fb;
-    fb.open ("tests_Graphicus_02.txt",std::ios::out);
-    std::ostream os(&fb);
+    filebuf fb;
+    fb.open("tests_Graphicus_02.txt", ios::out);
+    ostream os(&fb);
 
     Canevas canevas;
 

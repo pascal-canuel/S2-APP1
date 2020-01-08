@@ -61,7 +61,7 @@ bool Couche::reinitialiser() {
     _etat = Initialisee;
     formes.clear();
 
-    return true; // Nani?
+    return formes.empty();
 }
 
 bool Couche::setEtat(Etat etat) {
@@ -74,9 +74,11 @@ bool Couche::setEtat(Etat etat) {
 
 void Couche::afficher(ostream &s) {
     if (_etat == Initialisee)
-        s << "Couche initialisee" << std::endl;
+        s << "Couche initialisee" << endl;
     else if (_etat == Cachee)
-        s << "Couche cachee" << std::endl;
+        s << "Couche cachee" << endl;
+    else if (formes.empty())
+        s << "Couche vide" << endl;
     else
         for (int i = 0; i < formes.size(); ++i)
             formes[i]->afficher(s);
