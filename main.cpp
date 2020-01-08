@@ -6,7 +6,6 @@
  *    fichier fait partie de la distribution de Graphicus.
 ********/
 #include "tests.h"
-#include <vector>
 #include "Vecteur.h"
 
 using namespace std;
@@ -16,11 +15,6 @@ int main()
 //    Tests tests;
 //
 //    tests.tests_application();
-
-//    std::vector<int> myvector;
-//
-//    std::cout << "size: " << (int) myvector.size() << '\n';
-//    std::cout << "capacity: " << (int) myvector.capacity() << '\n';
     Vecteur<int> nani;
     for (int i = 0; i < 5; ++i) {
         nani.push_back(i);
