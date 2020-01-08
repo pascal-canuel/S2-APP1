@@ -31,7 +31,7 @@ int main()
 
     nani.print(os);
     fb.close();
-	cout << "Allo"<< endl;
+	cout << "Allo Christo" << endl;
 	system("pause");
     return 0;
 }
