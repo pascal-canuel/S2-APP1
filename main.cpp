@@ -6,31 +6,13 @@
  *    fichier fait partie de la distribution de Graphicus.
 ********/
 #include "tests.h"
-#include <fstream>
-#include "Vecteur.h"
-#include "forme.h"
-#include "Rectangle.h"
-#include "Carre.h"
-#include "Cercle.h"
 
 using namespace std;
 
 int main()
 {
-//    Tests tests;
-//
-//    tests.tests_application();
-    filebuf fb;
-    fb.open("tests_Graphicus_02.txt", ios::out);
-    ostream os(&fb);
+    Tests tests;
 
-    Vecteur nani;
-    nani.push_back(new Rectangle());
-    nani.push_back(new Carre());
-    nani.push_back(new Cercle());
-
-    nani.print(os);
-    fb.close();
-
+    tests.tests_application();
     return 0;
 }

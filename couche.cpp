@@ -12,9 +12,7 @@ Couche::Couche() {
     _etat = Initialisee;
 }
 
-Couche::~Couche() {
-    formes.clear();
-}
+Couche::~Couche() = default;
 
 bool Couche::ajouterForme(Forme *forme) {
     if (_etat != Active)
@@ -80,6 +78,5 @@ void Couche::afficher(ostream &s) {
     else if (formes.empty())
         s << "Couche vide" << endl;
     else
-        for (int i = 0; i < formes.size(); ++i)
-            formes[i]->afficher(s);
+        formes.print(s);
 }

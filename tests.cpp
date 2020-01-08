@@ -80,7 +80,11 @@ void Tests::tests_application_cas_02()
     canevas.ajouterForme(new Carre(3, 4));
     canevas.ajouterForme(new Cercle(0, 0, 3));
 
+    canevas.activerCouche(3);
+
     canevas.afficher(os);
 
     fb.close();
+
+    // Todo mem leak when vectors from couches are deleted
 }

@@ -10,45 +10,84 @@
 
 Canevas::Canevas()
 {
+    coucheActiveIndex = 0;
+    couches[coucheActiveIndex].setEtat(Active);
 }
 
-Canevas::~Canevas()
-{
-}
+Canevas::~Canevas() = default;
 
 bool Canevas::reinitialiser()
 {
-   return true;
+    bool success = true;
+
+    for (auto & couche : couches) {
+        if (!couche.reinitialiser())
+            success = false;
+    }
+
+    coucheActiveIndex = 0;
+    couches[coucheActiveIndex].setEtat(Active);
+
+    return success;
 }
 
 bool Canevas::activerCouche(int index)
 {
-   return true;
+    if (index < 0 || index >= MAX_COUCHES || index == coucheActiveIndex)
+        return false;
+
+    if (!couches[coucheActiveIndex].setEtat(Inactive))
+        return false;
+
+    if (couches[index].setEtat(Active))
+        coucheActiveIndex = index;
+    return true;
 }
 
 bool Canevas::cacherCouche(int index)
 {
-   return true;
+    if (index < 0 || index >= MAX_COUCHES)
+        return false;
+
+    if (index == coucheActiveIndex)
+        coucheActiveIndex = -1 ;
+
+    return couches[index].setEtat(Cachee);
 }
 
 bool Canevas::ajouterForme(Forme *p_forme)
 {
-   return true;
+    if (coucheActiveIndex == -1)
+        return false;
+
+    return couches[coucheActiveIndex].ajouterForme(p_forme);
 }
 
 bool Canevas::retirerForme(int index)
 {
-   return true;
+    if (coucheActiveIndex == -1)
+        return false;
+
+    return couches[coucheActiveIndex].retraitForme(index);
 }
 
 double Canevas::aire()
 {
-   return 0.0;
+    double aire = 0;
+
+    for (auto & couche : couches) {
+        aire += couche.aire();
+    }
+
+    return aire;
 }
 
 bool Canevas::translater(int deltaX, int deltaY)
 {
-   return true;
+    if (coucheActiveIndex == -1)
+        return false;
+
+    return couches[coucheActiveIndex].translater(deltaX, deltaY);
 }
 
 void Canevas::afficher(ostream &s)

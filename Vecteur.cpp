@@ -15,6 +15,9 @@ Vecteur::~Vecteur() {
 }
 
 bool Vecteur::push_back(Forme *forme) {
+    if (_size > MAX_SIZE)
+        return false;
+
     _size++;
 
     if (_capacity == 0) {
@@ -22,20 +25,20 @@ bool Vecteur::push_back(Forme *forme) {
         formes = new Forme*;
         formes[0] = forme;
     } else if (_size > _capacity) {
-        Forme** prev_array = formes;
+        Forme** prev_formes = formes;
         _capacity *= 2;
         formes = new Forme*[_capacity];
 
         for (int i = 0; i < _size - 1; ++i) {
-            formes[i] = prev_array[i];
+            formes[i] = prev_formes[i];
         }
 
         formes[_size - 1] = forme;
-        delete [] prev_array;
+        delete [] prev_formes;
     } else
         formes[_size - 1] = forme;
 
-    return _size != MAX_SIZE;
+    return true;
 }
 
 int Vecteur::size() {
