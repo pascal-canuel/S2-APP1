@@ -21,7 +21,7 @@ int main()
 //
 //    tests.tests_application();
     std::filebuf fb;
-    fb.open ("tests_Graphicus_02.txt",std::ios::out);
+    fb.open("tests_Graphicus_02.txt",std::ios::out);
     std::ostream os(&fb);
 
     Vecteur nani;
@@ -31,6 +31,7 @@ int main()
 
     nani.print(os);
     fb.close();
-
+	cout << "Allo"<< endl;
+	system("pause");
     return 0;
 }

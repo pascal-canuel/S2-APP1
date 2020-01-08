@@ -1,3 +1,4 @@
+
 /********
  * Fichier: canevas.cpp
  * Auteurs: C.-A. Brunet
