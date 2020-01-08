@@ -17,5 +17,5 @@ double Cercle::aire() {
 }
 
 void Cercle::afficher(ostream &s) {
-    // Todo
+    s << "Cercle (x=" << ancrage.x << ", y=" << ancrage.y << ", r=" << rayon << ", aire=" << aire() << ")" << std::endl;
 }

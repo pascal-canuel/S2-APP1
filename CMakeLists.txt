@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Graphicus_02
         main.cpp
+        Vecteur.cpp Vecteur.h
         canevas.cpp canevas.h
         coordonnee.h
         couche.cpp couche.h
@@ -13,5 +14,4 @@ add_executable(Graphicus_02
         Rectangle.cpp Rectangle.h
         Carre.cpp Carre.h
         Cercle.cpp Cercle.h
-        Vecteur.h
         )

@@ -31,7 +31,7 @@ public:
     void afficher(ostream &s);
 
 private:
-    Vecteur<Forme*> formes;
+    Vecteur formes;
     Etat etat;
 };
 

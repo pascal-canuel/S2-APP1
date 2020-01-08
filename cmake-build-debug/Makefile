@@ -204,6 +204,33 @@ Rectangle.cpp.s:
 	$(MAKE) -f CMakeFiles/Graphicus_02.dir/build.make CMakeFiles/Graphicus_02.dir/Rectangle.cpp.s
 .PHONY : Rectangle.cpp.s
 
+Vecteur.o: Vecteur.cpp.o
+
+.PHONY : Vecteur.o
+
+# target to build an object file
+Vecteur.cpp.o:
+	$(MAKE) -f CMakeFiles/Graphicus_02.dir/build.make CMakeFiles/Graphicus_02.dir/Vecteur.cpp.o
+.PHONY : Vecteur.cpp.o
+
+Vecteur.i: Vecteur.cpp.i
+
+.PHONY : Vecteur.i
+
+# target to preprocess a source file
+Vecteur.cpp.i:
+	$(MAKE) -f CMakeFiles/Graphicus_02.dir/build.make CMakeFiles/Graphicus_02.dir/Vecteur.cpp.i
+.PHONY : Vecteur.cpp.i
+
+Vecteur.s: Vecteur.cpp.s
+
+.PHONY : Vecteur.s
+
+# target to generate assembly for a file
+Vecteur.cpp.s:
+	$(MAKE) -f CMakeFiles/Graphicus_02.dir/build.make CMakeFiles/Graphicus_02.dir/Vecteur.cpp.s
+.PHONY : Vecteur.cpp.s
+
 canevas.o: canevas.cpp.o
 
 .PHONY : canevas.o
@@ -357,6 +384,9 @@ help:
 	@echo "... Rectangle.o"
 	@echo "... Rectangle.i"
 	@echo "... Rectangle.s"
+	@echo "... Vecteur.o"
+	@echo "... Vecteur.i"
+	@echo "... Vecteur.s"
 	@echo "... canevas.o"
 	@echo "... canevas.i"
 	@echo "... canevas.s"

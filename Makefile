@@ -1,16 +1,19 @@
-output: main.o tests.o canevas.o couche.o forme.o Rectangle.o Carre.o Cercle.o
-	g++ main.o tests.o canevas.o couche.o forme.o Rectangle.o Carre.o Cercle.o -o output
+output: main.o tests.o Vecteur.o canevas.o couche.o forme.o Rectangle.o Carre.o Cercle.o
+	g++ main.o tests.o Vecteur.o canevas.o couche.o forme.o Rectangle.o Carre.o Cercle.o -o output
 
 main.o: main.cpp
 	g++ -c main.cpp
 
-tests.o: tests.cpp tests.h Vecteur.h
+tests.o: tests.cpp tests.h
 	g++ -c tests.cpp
+
+Vecteur.o: Vecteur.cpp Vecteur.h
+	g++ -c Vecteur.cpp
 
 canevas.o: canevas.cpp canevas.h
 	g++ -c canevas.cpp
 
-couche.o: couche.cpp couche.h Vecteur.h
+couche.o: couche.cpp couche.h
 	g++ -c couche.cpp
 
 forme.o: forme.cpp forme.h coordonnee.h

@@ -1,0 +1,3 @@
+Rectangle (x=0, y=0, l=1, h=1, aire=1)
+Carre (x=0, y=0, c=1, aire=1)
+Cercle (x=0, y=0, r=1, aire=3.14159)

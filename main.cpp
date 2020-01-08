@@ -6,7 +6,12 @@
  *    fichier fait partie de la distribution de Graphicus.
 ********/
 #include "tests.h"
+#include <fstream>
 #include "Vecteur.h"
+#include "forme.h"
+#include "Rectangle.h"
+#include "Carre.h"
+#include "Cercle.h"
 
 using namespace std;
 
@@ -15,33 +20,17 @@ int main()
 //    Tests tests;
 //
 //    tests.tests_application();
-    Vecteur<int> nani;
-    for (int i = 0; i < 5; ++i) {
-        nani.push_back(i);
-        std::cout << "size: " << (int) nani.size() << '\n';
-        std::cout << "capacity: " << (int) nani.capacity() << '\n';
-        std::cout << "---------" << '\n';
-    }
-    int asd = nani.remove(2);
-    std::cout << "asd: " << (int) asd << '\n';
-    std::cout << "size: " << (int) nani.size() << '\n';
-    std::cout << "capacity: " << (int) nani.capacity() << '\n';
-    std::cout << "---------" << '\n';
+    std::filebuf fb;
+    fb.open ("tests_Graphicus_02.txt",std::ios::out);
+    std::ostream os(&fb);
 
-    nani.push_back(9);
-    std::cout << "size: " << (int) nani.size() << '\n';
-    std::cout << "capacity: " << (int) nani.capacity() << '\n';
-    std::cout << "---------" << '\n';
+    Vecteur nani;
+    nani.push_back(new Rectangle());
+    nani.push_back(new Carre());
+    nani.push_back(new Cercle());
 
-    asd = nani.remove(4);
-    std::cout << "asd: " << (int) asd << '\n';
-    std::cout << "size: " << (int) nani.size() << '\n';
-    std::cout << "capacity: " << (int) nani.capacity() << '\n';
-    std::cout << "---------" << '\n';
+    nani.print(os);
+    fb.close();
 
-    nani.clear();
-    std::cout << "size: " << (int) nani.size() << '\n';
-    std::cout << "capacity: " << (int) nani.capacity() << '\n';
-    std::cout << "---------" << '\n';
     return 0;
 }

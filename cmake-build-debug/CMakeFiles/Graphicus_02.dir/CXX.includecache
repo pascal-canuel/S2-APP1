@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Carre.h
+forme.h
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/forme.h
+
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Cercle.h
+forme.h
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/forme.h
+math.h
+-
+
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Rectangle.h
+forme.h
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/forme.h
+
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Vecteur.h
+forme.h
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/forme.h
 iostream
 -
 
@@ -35,10 +51,18 @@ coordonnee.h
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/main.cpp
 tests.h
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/tests.h
-vector
+fstream
 -
 Vecteur.h
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Vecteur.h
+forme.h
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/forme.h
+Rectangle.h
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Rectangle.h
+Carre.h
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Carre.h
+Cercle.h
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Cercle.h
 
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/tests.h
 iostream

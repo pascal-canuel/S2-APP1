@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Graphicus_02.dir/Carre.cpp.o"
   "CMakeFiles/Graphicus_02.dir/Cercle.cpp.o"
   "CMakeFiles/Graphicus_02.dir/Rectangle.cpp.o"
+  "CMakeFiles/Graphicus_02.dir/Vecteur.cpp.o"
   "CMakeFiles/Graphicus_02.dir/canevas.cpp.o"
   "CMakeFiles/Graphicus_02.dir/couche.cpp.o"
   "CMakeFiles/Graphicus_02.dir/forme.cpp.o"

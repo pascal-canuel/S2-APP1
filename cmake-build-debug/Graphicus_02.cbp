@@ -98,6 +98,9 @@
 		<Unit filename="/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Rectangle.h">
 			<Option target="Graphicus_02"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Vecteur.cpp">
+			<Option target="Graphicus_02"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Vecteur.h">
 			<Option target="Graphicus_02"/>
 		</Unit>
