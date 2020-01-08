@@ -20,9 +20,10 @@ int main()
 //    Tests tests;
 //
 //    tests.tests_application();
-    std::filebuf fb;
-    fb.open("tests_Graphicus_02.txt",std::ios::out);
-    std::ostream os(&fb);
+
+    filebuf fb;
+    fb.open("tests_Graphicus_02.txt", ios::out);
+    ostream os(&fb);
 
     Vecteur nani;
     nani.push_back(new Rectangle());

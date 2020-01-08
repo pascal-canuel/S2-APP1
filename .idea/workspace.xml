@@ -13,8 +13,18 @@
   <component name="ChangeListManager">
     <list default="true" id="3f2ad0b8-a635-4414-ab6b-643fef1a760d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Carre.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Carre.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cercle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Cercle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rectangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Rectangle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/canevas.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/canevas.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/couche.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/couche.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphicus_02.dir/tests.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Graphicus_02.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Graphicus_02.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_Graphicus_02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_Graphicus_02.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/couche.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/couche.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/couche.h" beforeDir="false" afterPath="$PROJECT_DIR$/couche.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +137,7 @@
       <updated>1578333812547</updated>
       <workItem from="1578333813862" duration="19392000" />
       <workItem from="1578369553602" duration="10226000" />
-      <workItem from="1578421966828" duration="11439000" />
+      <workItem from="1578421966828" duration="14207000" />
     </task>
     <servers />
   </component>
@@ -156,42 +166,46 @@
     </state>
     <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578370796098" />
     <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578422152560" />
-    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1578444110553">
+    <state width="725" height="226" key="GridCell.Tab.0.bottom" timestamp="1578448919395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578444110553" />
-    <state width="724" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578340946790" />
-    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1578444110553">
+    <state width="725" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578448919395" />
+    <state width="725" height="226" key="GridCell.Tab.0.center" timestamp="1578448919395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578444110553" />
-    <state width="724" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578340946790" />
-    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1578444110553">
+    <state width="725" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578448919395" />
+    <state width="725" height="226" key="GridCell.Tab.0.left" timestamp="1578448919395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578444110553" />
-    <state width="724" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578340946790" />
-    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1578444110553">
+    <state width="725" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578448919395" />
+    <state width="725" height="226" key="GridCell.Tab.0.right" timestamp="1578448919395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578444110553" />
-    <state width="724" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578340946790" />
-    <state width="1493" height="225" key="GridCell.Tab.1.bottom" timestamp="1578444058230">
+    <state width="725" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578448919395" />
+    <state width="725" height="227" key="GridCell.Tab.1.bottom" timestamp="1578448919203">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="225" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578444058230" />
-    <state width="1493" height="225" key="GridCell.Tab.1.center" timestamp="1578444058230">
+    <state width="725" height="227" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578448919203" />
+    <state width="725" height="227" key="GridCell.Tab.1.center" timestamp="1578448919203">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="225" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578444058230" />
-    <state width="1493" height="225" key="GridCell.Tab.1.left" timestamp="1578444058230">
+    <state width="725" height="227" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578448919203" />
+    <state width="725" height="227" key="GridCell.Tab.1.left" timestamp="1578448919203">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="225" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578444058230" />
-    <state width="1493" height="225" key="GridCell.Tab.1.right" timestamp="1578444058230">
+    <state width="725" height="227" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578448919203" />
+    <state width="725" height="227" key="GridCell.Tab.1.right" timestamp="1578448919203">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="225" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1578444058230" />
+    <state width="725" height="227" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578448919203" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1578440391154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -215,7 +229,7 @@
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="this-&gt;formes-&gt;*formes" />
+        <watch expression="this-&gt;formes-&gt;*formes" language="ObjectiveC" />
         <watch expression="this-&gt;formes-&gt;*formes" />
         <watch expression="this-&gt;formes" />
         <watch expression="this-&gt;formes" />

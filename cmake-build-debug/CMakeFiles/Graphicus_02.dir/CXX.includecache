@@ -6,15 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Carre.cpp
+Carre.h
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Carre.h
+
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Carre.h
 forme.h
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/forme.h
+
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Cercle.cpp
+Cercle.h
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Cercle.h
 
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Cercle.h
 forme.h
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/forme.h
 math.h
 -
+
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Rectangle.cpp
+Rectangle.h
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Rectangle.h
 
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Rectangle.h
 forme.h
@@ -35,6 +47,10 @@ couche.h
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/couche.h
 
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/coordonnee.h
+
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/couche.cpp
+couche.h
+/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/couche.h
 
 /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/couche.h
 Vecteur.h
