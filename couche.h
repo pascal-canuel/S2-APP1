@@ -32,7 +32,7 @@ public:
 
 private:
     Vecteur formes;
-    Etat etat;
+    Etat _etat;
 };
 
 #endif

@@ -8,48 +8,74 @@
 
 #include "couche.h"
 
-// Todo
-
 Couche::Couche() {
-
+    _etat = Initialisee;
 }
 
 Couche::~Couche() {
-
+    formes.clear();
 }
 
 bool Couche::ajouterForme(Forme *forme) {
-    return false;
+    if (_etat != Active)
+        return false;
+
+    return formes.push_back(forme);
 }
 
 Forme *Couche::retraitForme(int i) {
-    return nullptr;
+    if (_etat != Active)
+        return nullptr;
+
+    return formes.remove(i);
 }
 
 Forme *Couche::obtenirForme(int i) {
-    return nullptr;
+    return formes.at(i);
 }
 
 double Couche::aire() {
-    return 0;
+    if (_etat == Cachee)
+        return 0;
+
+    double aire = 0;
+
+    for (int i = 0; i < formes.size(); ++i) {
+        aire += formes[i]->aire();
+    }
+
+    return aire;
 }
 
 bool Couche::translater(int deltaX, int deltaY) {
-    return false;
+    if (_etat != Active)
+        return false;
+
+    for (int i = 0; i < formes.size(); ++i)
+        formes[i]->translater(deltaX, deltaY);
+
+    return true;
 }
 
 bool Couche::reinitialiser() {
-    return false;
+    _etat = Initialisee;
+    formes.clear();
+
+    return true; // Nani?
 }
 
 bool Couche::setEtat(Etat etat) {
-    return false;
+    if (etat == Initialisee)
+        return false;
+
+    this->_etat = etat;
+    return true;
 }
 
 void Couche::afficher(ostream &s) {
-    if (etat == Initialisee)
+    if (_etat == Initialisee)
         s << "Couche initialisee" << std::endl;
-    else if (etat == Cachee)
+    else if (_etat == Cachee)
         s << "Couche cachee" << std::endl;
     else
         for (int i = 0; i < formes.size(); ++i)
