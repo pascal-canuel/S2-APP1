@@ -13,6 +13,7 @@ int main()
 {
     Tests tests;
 
+    tests.tests_unitaires();
     tests.tests_application();
     return 0;
 }
