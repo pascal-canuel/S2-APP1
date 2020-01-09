@@ -70,22 +70,9 @@ CMakeFiles/Graphicus_02.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Graphicus_02.dir/main.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/main.cpp -o CMakeFiles/Graphicus_02.dir/main.cpp.s
 
-CMakeFiles/Graphicus_02.dir/Vecteur.cpp.o: CMakeFiles/Graphicus_02.dir/flags.make
-CMakeFiles/Graphicus_02.dir/Vecteur.cpp.o: ../Vecteur.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Graphicus_02.dir/Vecteur.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphicus_02.dir/Vecteur.cpp.o -c /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Vecteur.cpp
-
-CMakeFiles/Graphicus_02.dir/Vecteur.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Graphicus_02.dir/Vecteur.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Vecteur.cpp > CMakeFiles/Graphicus_02.dir/Vecteur.cpp.i
-
-CMakeFiles/Graphicus_02.dir/Vecteur.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Graphicus_02.dir/Vecteur.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Vecteur.cpp -o CMakeFiles/Graphicus_02.dir/Vecteur.cpp.s
-
 CMakeFiles/Graphicus_02.dir/canevas.cpp.o: CMakeFiles/Graphicus_02.dir/flags.make
 CMakeFiles/Graphicus_02.dir/canevas.cpp.o: ../canevas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Graphicus_02.dir/canevas.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Graphicus_02.dir/canevas.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphicus_02.dir/canevas.cpp.o -c /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/canevas.cpp
 
 CMakeFiles/Graphicus_02.dir/canevas.cpp.i: cmake_force
@@ -98,7 +85,7 @@ CMakeFiles/Graphicus_02.dir/canevas.cpp.s: cmake_force
 
 CMakeFiles/Graphicus_02.dir/couche.cpp.o: CMakeFiles/Graphicus_02.dir/flags.make
 CMakeFiles/Graphicus_02.dir/couche.cpp.o: ../couche.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Graphicus_02.dir/couche.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Graphicus_02.dir/couche.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphicus_02.dir/couche.cpp.o -c /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/couche.cpp
 
 CMakeFiles/Graphicus_02.dir/couche.cpp.i: cmake_force
@@ -111,7 +98,7 @@ CMakeFiles/Graphicus_02.dir/couche.cpp.s: cmake_force
 
 CMakeFiles/Graphicus_02.dir/forme.cpp.o: CMakeFiles/Graphicus_02.dir/flags.make
 CMakeFiles/Graphicus_02.dir/forme.cpp.o: ../forme.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Graphicus_02.dir/forme.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Graphicus_02.dir/forme.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphicus_02.dir/forme.cpp.o -c /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/forme.cpp
 
 CMakeFiles/Graphicus_02.dir/forme.cpp.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/Graphicus_02.dir/forme.cpp.s: cmake_force
 
 CMakeFiles/Graphicus_02.dir/tests.cpp.o: CMakeFiles/Graphicus_02.dir/flags.make
 CMakeFiles/Graphicus_02.dir/tests.cpp.o: ../tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Graphicus_02.dir/tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Graphicus_02.dir/tests.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphicus_02.dir/tests.cpp.o -c /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/tests.cpp
 
 CMakeFiles/Graphicus_02.dir/tests.cpp.i: cmake_force
@@ -137,7 +124,7 @@ CMakeFiles/Graphicus_02.dir/tests.cpp.s: cmake_force
 
 CMakeFiles/Graphicus_02.dir/Rectangle.cpp.o: CMakeFiles/Graphicus_02.dir/flags.make
 CMakeFiles/Graphicus_02.dir/Rectangle.cpp.o: ../Rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Graphicus_02.dir/Rectangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Graphicus_02.dir/Rectangle.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphicus_02.dir/Rectangle.cpp.o -c /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Rectangle.cpp
 
 CMakeFiles/Graphicus_02.dir/Rectangle.cpp.i: cmake_force
@@ -150,7 +137,7 @@ CMakeFiles/Graphicus_02.dir/Rectangle.cpp.s: cmake_force
 
 CMakeFiles/Graphicus_02.dir/Carre.cpp.o: CMakeFiles/Graphicus_02.dir/flags.make
 CMakeFiles/Graphicus_02.dir/Carre.cpp.o: ../Carre.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Graphicus_02.dir/Carre.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Graphicus_02.dir/Carre.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphicus_02.dir/Carre.cpp.o -c /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Carre.cpp
 
 CMakeFiles/Graphicus_02.dir/Carre.cpp.i: cmake_force
@@ -163,7 +150,7 @@ CMakeFiles/Graphicus_02.dir/Carre.cpp.s: cmake_force
 
 CMakeFiles/Graphicus_02.dir/Cercle.cpp.o: CMakeFiles/Graphicus_02.dir/flags.make
 CMakeFiles/Graphicus_02.dir/Cercle.cpp.o: ../Cercle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Graphicus_02.dir/Cercle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Graphicus_02.dir/Cercle.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphicus_02.dir/Cercle.cpp.o -c /cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/Cercle.cpp
 
 CMakeFiles/Graphicus_02.dir/Cercle.cpp.i: cmake_force
@@ -177,7 +164,6 @@ CMakeFiles/Graphicus_02.dir/Cercle.cpp.s: cmake_force
 # Object files for target Graphicus_02
 Graphicus_02_OBJECTS = \
 "CMakeFiles/Graphicus_02.dir/main.cpp.o" \
-"CMakeFiles/Graphicus_02.dir/Vecteur.cpp.o" \
 "CMakeFiles/Graphicus_02.dir/canevas.cpp.o" \
 "CMakeFiles/Graphicus_02.dir/couche.cpp.o" \
 "CMakeFiles/Graphicus_02.dir/forme.cpp.o" \
@@ -190,7 +176,6 @@ Graphicus_02_OBJECTS = \
 Graphicus_02_EXTERNAL_OBJECTS =
 
 Graphicus_02.exe: CMakeFiles/Graphicus_02.dir/main.cpp.o
-Graphicus_02.exe: CMakeFiles/Graphicus_02.dir/Vecteur.cpp.o
 Graphicus_02.exe: CMakeFiles/Graphicus_02.dir/canevas.cpp.o
 Graphicus_02.exe: CMakeFiles/Graphicus_02.dir/couche.cpp.o
 Graphicus_02.exe: CMakeFiles/Graphicus_02.dir/forme.cpp.o
@@ -200,7 +185,7 @@ Graphicus_02.exe: CMakeFiles/Graphicus_02.dir/Carre.cpp.o
 Graphicus_02.exe: CMakeFiles/Graphicus_02.dir/Cercle.cpp.o
 Graphicus_02.exe: CMakeFiles/Graphicus_02.dir/build.make
 Graphicus_02.exe: CMakeFiles/Graphicus_02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Graphicus_02.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Pascal/Documents/UdeS/S2/APP1/Graphicus-02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Graphicus_02.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Graphicus_02.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -71,7 +71,7 @@ void Tests::tests_unitaires_vecteur()
 {
     // Tests sur la classe Vecteur
     cout << "----- VECTEUR BEGIN -----" << endl;
-    Vecteur formes;
+    Vecteur<Forme*> formes;
 
     // constructor
     cout << "initial size is 0: " << boolToString(formes.size() == 0) << endl;
