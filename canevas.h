@@ -23,15 +23,11 @@ class Canevas
 public:
    Canevas();
    ~Canevas();
-   
    bool reinitialiser();
-   
    bool activerCouche(int index);
    bool cacherCouche(int index);
-   
    bool ajouterForme(Forme *p_forme);
    bool retirerForme(int index);
-   
    double aire();
    bool translater(int deltaX, int deltaY);
    void afficher(ostream &s);

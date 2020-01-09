@@ -50,9 +50,12 @@ int Vecteur::capacity() {
 }
 
 void Vecteur::clear() {
+    if (!empty()) {
+        delete [] formes;
+        formes = nullptr;
+    }
     _size = 0;
     _capacity = 0;
-    delete [] formes;
 }
 
 bool Vecteur::empty() {
