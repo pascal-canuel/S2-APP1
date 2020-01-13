@@ -1,0 +1,14 @@
+----- Couche 0
+Couche vide
+----- Couche 1
+Couche initialisee
+----- Couche 2
+Cercle (x=1, y=2, r=0, aire=0)
+Cercle (x=2, y=4, r=3, aire=28.2743)
+Cercle (x=4, y=8, r=9, aire=254.469)
+Cercle (x=5, y=10, r=12, aire=452.389)
+Cercle (x=6, y=12, r=15, aire=706.858)
+----- Couche 3
+Couche initialisee
+----- Couche 4
+Couche initialisee

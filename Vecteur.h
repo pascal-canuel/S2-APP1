@@ -6,7 +6,7 @@
 #define GRAPHICUS_02_VECTEUR_H
 
 
-#define MAX_SIZE 1073741823
+#define MAX_SIZE 1073741824
 
 #include <iostream>
 
@@ -26,7 +26,7 @@ public:
     }
 
     bool push_back(const T& val) {
-        if (_size > MAX_SIZE)
+        if (_size == MAX_SIZE)
             return false;
 
         _size++;
@@ -66,6 +66,7 @@ public:
             delete [] array;
             array = nullptr;
         }
+
         _size = 0;
         _capacity = 0;
     }
@@ -74,6 +75,7 @@ public:
         return size() == 0;
     }
 
+    // Todo not good
     T remove(int i) {
         if (i < 0 || i >= _size) //  throw "index out of range";
             return nullptr;

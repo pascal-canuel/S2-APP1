@@ -61,8 +61,10 @@ bool Couche::translater(int deltaX, int deltaY) {
 
 bool Couche::reinitialiser() {
     _etat = Initialisee;
+    for (int i = 0; i < formes.size(); ++i) {
+        delete formes[i];
+    }
     formes.clear();
-
     return formes.empty();
 }
 

@@ -15,5 +15,7 @@ int main()
 
     tests.tests_unitaires();
     tests.tests_application();
+    tests.tests_validation();
+
     return 0;
 }

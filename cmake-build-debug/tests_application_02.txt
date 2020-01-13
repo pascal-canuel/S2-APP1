@@ -1,0 +1,14 @@
+----- Couche 0
+Rectangle (x=2, y=3, l=1, h=1, aire=1)
+Carre (x=0, y=0, c=1, aire=1)
+Cercle (x=7, y=8, r=6, aire=113.097)
+----- Couche 1
+Couche cachee
+----- Couche 2
+Rectangle (x=5, y=6, l=3, h=4, aire=12)
+Carre (x=3, y=4, c=1, aire=1)
+Cercle (x=0, y=0, r=3, aire=28.2743)
+----- Couche 3
+Couche vide
+----- Couche 4
+Couche initialisee

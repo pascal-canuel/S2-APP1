@@ -152,8 +152,6 @@ void Tests::tests_unitaires_couche()
 
     cout << "reinit couche: " << boolToString(couche.reinitialiser()) << endl;
 
-    delete carre;
-    delete rectangle;
     cout << "----- COUCHE END -----" << endl;
 }
 
@@ -177,8 +175,6 @@ void Tests::tests_unitaires_canevas()
 
     cout << "reinit canevas: " << boolToString(canevas.reinitialiser() && canevas.aire() == 0);
 
-    delete carre;
-    delete rectangle;
     cout << "----- CANEVAS END -----" << endl;
 }
 
@@ -203,9 +199,9 @@ void Tests::tests_application_cas_01()
    cout << "TESTS APPLICATION (CAS 01)" << endl; 
    // Il faut ajouter les operations realisant ce scenario de test.
 
-    filebuf fb;
-    fb.open("tests_Graphicus_01.txt", ios::out);
-    ostream os(&fb);
+//    filebuf fb;
+//    fb.open("tests_application_01.txt", ios::out);
+//    ostream os(&fb);
 
     Canevas canevas;
 
@@ -221,19 +217,19 @@ void Tests::tests_application_cas_01()
     canevas.translater(1, 2);
     canevas.retirerForme(2);
 
-    canevas.afficher(os);
+    canevas.afficher(cout);
 
-    fb.close();
+//    fb.close();
 }
 
 void Tests::tests_application_cas_02()
 {
-   cout << "TESTS APPLICATION (CAS 02)" << endl;  
+    cout << "TESTS APPLICATION (CAS 02)" << endl;
     // Il faut ajouter les operations realisant ce scenario de test.
 
-    filebuf fb;
-    fb.open("tests_Graphicus_02.txt", ios::out);
-    ostream os(&fb);
+//    filebuf fb;
+//    fb.open("tests_application_02.txt", ios::out);
+//    ostream os(&fb);
 
     Canevas canevas;
 
@@ -251,7 +247,54 @@ void Tests::tests_application_cas_02()
 
     canevas.activerCouche(3);
 
-    canevas.afficher(os);
+    canevas.afficher(cout);
 
-    fb.close();
+//    fb.close();
+}
+
+void Tests::tests_validation() {
+
+    cout << "TESTS VALIDATION" << endl;
+    // Il faut ajouter les operations realisant ce scenario de test.
+
+//    filebuf fb;
+//    fb.open("tests_validation.txt", ios::out);
+//    ostream os(&fb);
+
+    Canevas canevas;
+
+    canevas.activerCouche(1);
+    canevas.ajouterForme(new Rectangle(1, 1));
+    canevas.ajouterForme(new Carre(2, 2));
+    canevas.ajouterForme(new Cercle(3, 3));
+
+    canevas.activerCouche(2);
+    canevas.ajouterForme(new Rectangle(6, 6, 6, 6));
+
+    canevas.afficher(cout);
+
+    cout << "aire: " << canevas.aire() << endl;
+
+    canevas.activerCouche(0);
+    canevas.ajouterForme(new Rectangle(7, 7));
+    canevas.ajouterForme(new Carre(8, 8));
+    canevas.ajouterForme(new Cercle(9, 9));
+
+    canevas.cacherCouche(2);
+
+    canevas.activerCouche(1);
+    canevas.translater(1, 1);
+
+    canevas.afficher(cout);
+
+    cout << "aire: " << canevas.aire() << endl;
+    canevas.retirerForme(0);
+    canevas.afficher(cout);
+    cout << "aire: " << canevas.aire() << endl;
+
+    canevas.reinitialiser();
+    canevas.afficher(cout);
+    cout << "aire: " << canevas.aire() << endl;
+
+//    fb.close();
 }

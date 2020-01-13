@@ -1,0 +1,144 @@
+----- FORME BEGIN -----
+get ancrage forme: FAIL
+translate forme: PASS
+----- FORME END -----
+----- RECTANGLE BEGIN -----
+set and get hauteur: PASS
+set and get largeur: PASS
+aire: PASS
+----- RECTANGLE END -----
+----- CARRE BEGIN -----
+set and get longueur: PASS
+aire: PASS
+----- CARRE END -----
+----- CERCLE BEGIN -----
+set and get rayon: PASS
+aire: PASS
+----- CERCLE END -----
+----- VECTEUR BEGIN -----
+initial size is 0: PASS
+initial capacity is 0: PASS
+vector is empty: PASS
+vector forme is added: PASS
+vector size is 1: PASS
+vector capacity is 1: PASS
+vector is not empty: PASS
+vector capacity is doubled: PASS
+valid remove return element: PASS
+invalid remove return nullptr: PASS
+valid at return element: PASS
+invalid at return nullptr: PASS
+clear empty vector: PASS
+----- VECTEUR END -----
+----- COUCHE BEGIN -----
+can't get forme when empty: PASS
+can'g remove forme when empty: PASS
+can't set init state: PASS
+can't add forme when init: PASS
+can't translate forme when init: PASS
+can't remove forme when init: PASS
+set inactive state: PASS
+can't add forme when inactive: PASS
+can't translate forme when inactive: PASS
+can't remove forme when inactive: PASS
+set hidden state: PASS
+can't add forme when hidden: PASS
+can't translate forme when hidden: PASS
+can't remove forme when hidden: PASS
+get forme: PASS
+translate formes: PASS
+aire formes: PASS
+remove forme: PASS
+reinit couche: PASS
+----- COUCHE END -----
+----- CANEVAS BEGIN -----
+add forme: PASS
+activate couche: PASS
+aire canevas: PASS
+hide canevas: PASS
+remove forme: PASS
+reinit canevas: PASS----- CANEVAS END -----
+TESTS APPLICATION (CAS 01)
+----- Couche 0
+Couche vide
+----- Couche 1
+Couche initialisee
+----- Couche 2
+Cercle (x=1, y=2, r=0, aire=0)
+Cercle (x=2, y=4, r=3, aire=28.2743)
+Cercle (x=4, y=8, r=9, aire=254.469)
+Cercle (x=5, y=10, r=12, aire=452.389)
+Cercle (x=6, y=12, r=15, aire=706.858)
+----- Couche 3
+Couche initialisee
+----- Couche 4
+Couche initialisee
+TESTS APPLICATION (CAS 02)
+----- Couche 0
+Rectangle (x=2, y=3, l=1, h=1, aire=1)
+Carre (x=0, y=0, c=1, aire=1)
+Cercle (x=7, y=8, r=6, aire=113.097)
+----- Couche 1
+Couche cachee
+----- Couche 2
+Rectangle (x=5, y=6, l=3, h=4, aire=12)
+Carre (x=3, y=4, c=1, aire=1)
+Cercle (x=0, y=0, r=3, aire=28.2743)
+----- Couche 3
+Couche vide
+----- Couche 4
+Couche initialisee
+TESTS VALIDATION
+----- Couche 0
+Couche vide
+----- Couche 1
+Rectangle (x=1, y=1, l=1, h=1, aire=1)
+Carre (x=2, y=2, c=1, aire=1)
+Cercle (x=3, y=3, r=1, aire=3.14159)
+----- Couche 2
+Rectangle (x=6, y=6, l=6, h=6, aire=36)
+----- Couche 3
+Couche initialisee
+----- Couche 4
+Couche initialisee
+aire: 41.1416
+----- Couche 0
+Rectangle (x=7, y=7, l=1, h=1, aire=1)
+Carre (x=8, y=8, c=1, aire=1)
+Cercle (x=9, y=9, r=1, aire=3.14159)
+----- Couche 1
+Rectangle (x=2, y=2, l=1, h=1, aire=1)
+Carre (x=3, y=3, c=1, aire=1)
+Cercle (x=4, y=4, r=1, aire=3.14159)
+----- Couche 2
+Couche cachee
+----- Couche 3
+Couche initialisee
+----- Couche 4
+Couche initialisee
+aire: 10.2832
+----- Couche 0
+Rectangle (x=7, y=7, l=1, h=1, aire=1)
+Carre (x=8, y=8, c=1, aire=1)
+Cercle (x=9, y=9, r=1, aire=3.14159)
+----- Couche 1
+Carre (x=3, y=3, c=1, aire=1)
+Cercle (x=4, y=4, r=1, aire=3.14159)
+----- Couche 2
+Couche cachee
+----- Couche 3
+Couche initialisee
+----- Couche 4
+Couche initialisee
+aire: 9.28319
+----- Couche 0
+Couche vide
+----- Couche 1
+Couche initialisee
+----- Couche 2
+Couche initialisee
+----- Couche 3
+Couche initialisee
+----- Couche 4
+Couche initialisee
+aire: 0
