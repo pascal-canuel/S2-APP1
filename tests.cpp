@@ -27,10 +27,10 @@ void Tests::tests_unitaires_formes()
     forme->translater(3, 4);
 
 
-    cout << "get ancrage forme: " << boolToString(forme->getAncrage().x == 4 && forme->getAncrage().y == 5) << endl;
+    cout << "get form anchorage: " << boolToString(forme->getAncrage().x == 4 && forme->getAncrage().y == 5) << endl;
 
     forme->setAncrage({6, 6});
-    cout << "translate forme: " << boolToString(forme->getAncrage().x == 6 && forme->getAncrage().y == 6) << endl;
+    cout << "translate form: " << boolToString(forme->getAncrage().x == 6 && forme->getAncrage().y == 6) << endl;
     delete forme;
     cout << "----- FORME END -----" << endl << endl;
 
@@ -38,12 +38,12 @@ void Tests::tests_unitaires_formes()
     Rectangle* rectangle = new Rectangle(2, 3, 4, 5);
 
     rectangle->setHauteur(7);
-    cout << "set and get hauteur: " << boolToString(rectangle->getHauteur() == 7) << endl;
+    cout << "set and get height: " << boolToString(rectangle->getHauteur() == 7) << endl;
 
     rectangle->setLargeur(8);
-    cout << "set and get largeur: " << boolToString(rectangle->getLargeur() == 8) << endl;
+    cout << "set and get width: " << boolToString(rectangle->getLargeur() == 8) << endl;
 
-    cout << "aire: " << boolToString(rectangle->aire() == 56) << endl;
+    cout << "area: " << boolToString(rectangle->aire() == 56) << endl;
     delete rectangle;
     cout << "----- RECTANGLE END -----" << endl << endl;
 
@@ -51,9 +51,9 @@ void Tests::tests_unitaires_formes()
     Carre* carre = new Carre(6, 7, 8);
 
     carre->setLongueur(7);
-    cout << "set and get longueur: " << boolToString(carre->getLongueur() == 7) << endl;
+    cout << "set and get length: " << boolToString(carre->getLongueur() == 7) << endl;
 
-    cout << "aire: " << boolToString(carre->aire() == 49) << endl;
+    cout << "area: " << boolToString(carre->aire() == 49) << endl;
     delete carre;
     cout << "----- CARRE END -----" << endl << endl;
 
@@ -61,9 +61,9 @@ void Tests::tests_unitaires_formes()
     Cercle* cercle = new Cercle(9, 10, 11);
 
     cercle->setRayon(3);
-    cout << "set and get rayon: " << boolToString(cercle->getRayon() == 3) << endl;
+    cout << "set and get ray: " << boolToString(cercle->getRayon() == 3) << endl;
 
-    cout << "aire: " << boolToString(round(cercle->aire()*1000)/1000 == 28.274) << endl;
+    cout << "area: " << boolToString(round(cercle->aire()*1000)/1000 == 28.274) << endl;
     delete cercle;
     cout << "----- CERCLE END -----" << endl << endl;
 }
@@ -82,7 +82,7 @@ void Tests::tests_unitaires_vecteur()
     // push back
     Forme* cercle = new Cercle();
     formes.push_back(cercle);
-    cout << "vector forme is added: " << boolToString(formes[0] == cercle) << endl;
+    cout << "vector form is added: " << boolToString(formes[0] == cercle) << endl;
     cout << "vector size is 1: " << boolToString(formes.size() == 1) << endl;
     cout << "vector capacity is 1: " << boolToString(formes.size() == 1) << endl;
     cout << "vector is not empty: " << boolToString(!formes.empty()) << endl;
@@ -98,7 +98,6 @@ void Tests::tests_unitaires_vecteur()
 
     // at
     cout << "valid at return element: " << boolToString(cercle == formes.at(0)) << endl;
-
     cout << "invalid at return nullptr: " << boolToString(formes.remove(1) == nullptr) << endl;
 
     // clear
@@ -117,23 +116,23 @@ void Tests::tests_unitaires_couche()
     cout << "----- COUCHE BEGIN -----" << endl;
     Couche couche;
 
-    cout << "can't get forme when empty: " << boolToString(!couche.obtenirForme(0)) << endl;
-    cout << "can'g remove forme when empty: " << boolToString(!couche.retraitForme(0)) << endl;
+    cout << "can't get form when empty: " << boolToString(!couche.obtenirForme(0)) << endl;
+    cout << "can't remove form when empty: " << boolToString(!couche.retraitForme(0)) << endl;
 
     cout << "can't set init state: " << boolToString(!couche.setEtat(Initialisee)) << endl;
     cout << "can't add forme when init: " << boolToString(!couche.ajouterForme(new Rectangle())) << endl;
-    cout << "can't translate forme when init: " << boolToString(!couche.translater(2, 3)) << endl;
-    cout << "can't remove forme when init: " << boolToString(!couche.retraitForme(0)) << endl;
+    cout << "can't translate form when init: " << boolToString(!couche.translater(2, 3)) << endl;
+    cout << "can't remove form when init: " << boolToString(!couche.retraitForme(0)) << endl;
 
     cout << "set inactive state: " << boolToString(couche.setEtat(Inactive)) << endl;
-    cout << "can't add forme when inactive: " << boolToString(!couche.ajouterForme(new Rectangle())) << endl;
-    cout << "can't translate forme when inactive: " << boolToString(!couche.translater(2, 3)) << endl;
-    cout << "can't remove forme when inactive: " << boolToString(!couche.retraitForme(0)) << endl;
+    cout << "can't add form when inactive: " << boolToString(!couche.ajouterForme(new Rectangle())) << endl;
+    cout << "can't translate form when inactive: " << boolToString(!couche.translater(2, 3)) << endl;
+    cout << "can't remove form when inactive: " << boolToString(!couche.retraitForme(0)) << endl;
 
     cout << "set hidden state: " << boolToString(couche.setEtat(Cachee)) << endl;
-    cout << "can't add forme when hidden: " << boolToString(!couche.ajouterForme(new Rectangle())) << endl;
-    cout << "can't translate forme when hidden: " << boolToString(!couche.translater(2, 3)) << endl;
-    cout << "can't remove forme when hidden: " << boolToString(!couche.retraitForme(0)) << endl;
+    cout << "can't add form when hidden: " << boolToString(!couche.ajouterForme(new Rectangle())) << endl;
+    cout << "can't translate form when hidden: " << boolToString(!couche.translater(2, 3)) << endl;
+    cout << "can't remove form when hidden: " << boolToString(!couche.retraitForme(0)) << endl;
 
     couche.setEtat(Active);
 
@@ -142,16 +141,16 @@ void Tests::tests_unitaires_couche()
     couche.ajouterForme(carre);
     couche.ajouterForme(rectangle);
 
-    cout << "get forme: " << boolToString(couche.obtenirForme(1) == rectangle) << endl;
+    cout << "get form: " << boolToString(couche.obtenirForme(1) == rectangle) << endl;
 
     couche.translater(2, 2);
-    cout << "translate formes: " << boolToString(carre->getAncrage().x == 2 && carre->getAncrage().y == 2 && rectangle->getAncrage().x == 2 && rectangle->getAncrage().y == 2) << endl;
+    cout << "translate forms: " << boolToString(carre->getAncrage().x == 2 && carre->getAncrage().y == 2 && rectangle->getAncrage().x == 2 && rectangle->getAncrage().y == 2) << endl;
 
-    cout << "aire formes: " << boolToString(couche.aire() == carre->aire() + rectangle->aire()) << endl;
+    cout << "aire forms: " << boolToString(couche.aire() == carre->aire() + rectangle->aire()) << endl;
 
-    cout << "remove forme: " << boolToString(rectangle == couche.retraitForme(1) && !couche.obtenirForme(1)) << endl;
+    cout << "remove form: " << boolToString(rectangle == couche.retraitForme(1) && !couche.obtenirForme(1)) << endl;
 
-    cout << "reinit couche: " << boolToString(couche.reinitialiser()) << endl;
+    cout << "reinit layer: " << boolToString(couche.reinitialiser()) << endl;
 
     cout << "----- COUCHE END -----" << endl << endl;
 }
@@ -164,17 +163,17 @@ void Tests::tests_unitaires_canevas()
     Forme* carre = new Carre(0, 0, 2);
     Forme* rectangle = new Rectangle(0, 0, 2, 3);
 
-    cout << "add forme: " << boolToString(canevas.ajouterForme(carre)) << endl;
-    cout << "activate couche: " << boolToString(canevas.activerCouche(1)) << endl;
+    cout << "add form: " << boolToString(canevas.ajouterForme(carre)) << endl;
+    cout << "activate layer: " << boolToString(canevas.activerCouche(1)) << endl;
     canevas.ajouterForme(rectangle);
 
     cout << "aire canevas: " << boolToString(canevas.aire() == carre->aire() + rectangle->aire()) << endl;
     cout << "hide canevas: " << boolToString(canevas.cacherCouche(1) && canevas.aire() == carre->aire()) << endl;
 
     canevas.activerCouche(1);
-    cout << "remove forme: " << boolToString(canevas.retirerForme(0) && canevas.aire() == carre->aire()) << endl;
+    cout << "remove form: " << boolToString(canevas.retirerForme(0) && canevas.aire() == carre->aire()) << endl;
 
-    cout << "reinit canevas: " << boolToString(canevas.reinitialiser() && canevas.aire() == 0);
+    cout << "reinit canevas: " << boolToString(canevas.reinitialiser() && canevas.aire() == 0) << endl;
 
     cout << "----- CANEVAS END -----" << endl << endl;
 }
@@ -276,7 +275,7 @@ void Tests::tests_validation() {
 
     canevas.afficher(cout);
 
-    cout << "aire: " << canevas.aire() << endl << endl;
+    cout << "area: " << canevas.aire() << endl << endl;
 
     canevas.activerCouche(0);
     canevas.ajouterForme(new Rectangle(7, 7));
@@ -290,14 +289,14 @@ void Tests::tests_validation() {
 
     canevas.afficher(cout);
 
-    cout << "aire: " << canevas.aire() << endl << endl;
+    cout << "area: " << canevas.aire() << endl << endl;
     canevas.retirerForme(0);
     canevas.afficher(cout);
-    cout << "aire: " << canevas.aire() << endl << endl;
+    cout << "area: " << canevas.aire() << endl << endl;
 
     canevas.reinitialiser();
     canevas.afficher(cout);
-    cout << "aire: " << canevas.aire() << endl << endl;
+    cout << "area: " << canevas.aire() << endl << endl;
 
     cout << endl;
 //    fb.close();

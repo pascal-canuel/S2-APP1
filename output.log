@@ -1,29 +1,29 @@
 ----- FORME BEGIN -----
-get ancrage forme: PASS
-translate forme: PASS
+get form anchorage: PASS
+translate form: PASS
 ----- FORME END -----
 
 ----- RECTANGLE BEGIN -----
-set and get hauteur: PASS
-set and get largeur: PASS
-aire: PASS
+set and get height: PASS
+set and get width: PASS
+area: PASS
 ----- RECTANGLE END -----
 
 ----- CARRE BEGIN -----
-set and get longueur: PASS
-aire: PASS
+set and get length: PASS
+area: PASS
 ----- CARRE END -----
 
 ----- CERCLE BEGIN -----
-set and get rayon: PASS
-aire: PASS
+set and get ray: PASS
+area: PASS
 ----- CERCLE END -----
 
 ----- VECTEUR BEGIN -----
 initial size is 0: PASS
 initial capacity is 0: PASS
 vector is empty: PASS
-vector forme is added: PASS
+vector form is added: PASS
 vector size is 1: PASS
 vector capacity is 1: PASS
 vector is not empty: PASS
@@ -36,34 +36,35 @@ clear empty vector: PASS
 ----- VECTEUR END -----
 
 ----- COUCHE BEGIN -----
-can't get forme when empty: PASS
-can'g remove forme when empty: PASS
+can't get form when empty: PASS
+can't remove form when empty: PASS
 can't set init state: PASS
 can't add forme when init: PASS
-can't translate forme when init: PASS
-can't remove forme when init: PASS
+can't translate form when init: PASS
+can't remove form when init: PASS
 set inactive state: PASS
-can't add forme when inactive: PASS
-can't translate forme when inactive: PASS
-can't remove forme when inactive: PASS
+can't add form when inactive: PASS
+can't translate form when inactive: PASS
+can't remove form when inactive: PASS
 set hidden state: PASS
-can't add forme when hidden: PASS
-can't translate forme when hidden: PASS
-can't remove forme when hidden: PASS
-get forme: PASS
-translate formes: PASS
-aire formes: PASS
-remove forme: PASS
-reinit couche: PASS
+can't add form when hidden: PASS
+can't translate form when hidden: PASS
+can't remove form when hidden: PASS
+get form: PASS
+translate forms: PASS
+aire forms: PASS
+remove form: PASS
+reinit layer: PASS
 ----- COUCHE END -----
 
 ----- CANEVAS BEGIN -----
-add forme: PASS
-activate couche: PASS
+add form: PASS
+activate layer: PASS
 aire canevas: PASS
 hide canevas: PASS
-remove forme: PASS
-reinit canevas: PASS----- CANEVAS END -----
+remove form: PASS
+reinit canevas: PASS
+----- CANEVAS END -----
 
 TESTS APPLICATION (CAS 01)
 ----- Couche 0
@@ -110,7 +111,7 @@ Rectangle (x=6, y=6, l=6, h=6, aire=36)
 Couche initialisee
 ----- Couche 4
 Couche initialisee
-aire: 41.1416
+area: 41.1416
 
 ----- Couche 0
 Rectangle (x=7, y=7, l=1, h=1, aire=1)
@@ -126,7 +127,7 @@ Couche cachee
 Couche initialisee
 ----- Couche 4
 Couche initialisee
-aire: 10.2832
+area: 10.2832
 
 ----- Couche 0
 Rectangle (x=7, y=7, l=1, h=1, aire=1)
@@ -141,7 +142,7 @@ Couche cachee
 Couche initialisee
 ----- Couche 4
 Couche initialisee
-aire: 9.28319
+area: 9.28319
 
 ----- Couche 0
 Couche vide
@@ -153,6 +154,6 @@ Couche initialisee
 Couche initialisee
 ----- Couche 4
 Couche initialisee
-aire: 0
+area: 0
 
 

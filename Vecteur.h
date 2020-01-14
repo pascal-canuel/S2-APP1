@@ -25,7 +25,7 @@ public:
         clear();
     }
 
-    bool push_back(const T& val) {
+    bool push_back(T val) {
         if (_size == MAX_SIZE)
             return false;
 

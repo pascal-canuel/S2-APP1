@@ -68,7 +68,11 @@ bool Canevas::retirerForme(int index)
     if (coucheActiveIndex == -1)
         return false;
 
-    return couches[coucheActiveIndex].retraitForme(index);
+	Forme* forme = couches[coucheActiveIndex].retraitForme(index);
+	bool ret = forme != nullptr;
+	delete forme;
+	
+    return ret;
 }
 
 double Canevas::aire()
