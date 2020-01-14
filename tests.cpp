@@ -26,12 +26,13 @@ void Tests::tests_unitaires_formes()
     Forme* forme = new Carre(1, 1);
     forme->translater(3, 4);
 
-    delete forme;
+
     cout << "get ancrage forme: " << boolToString(forme->getAncrage().x == 4 && forme->getAncrage().y == 5) << endl;
 
     forme->setAncrage({6, 6});
     cout << "translate forme: " << boolToString(forme->getAncrage().x == 6 && forme->getAncrage().y == 6) << endl;
-    cout << "----- FORME END -----" << endl;
+    delete forme;
+    cout << "----- FORME END -----" << endl << endl;
 
     cout << "----- RECTANGLE BEGIN -----" << endl;
     Rectangle* rectangle = new Rectangle(2, 3, 4, 5);
@@ -44,7 +45,7 @@ void Tests::tests_unitaires_formes()
 
     cout << "aire: " << boolToString(rectangle->aire() == 56) << endl;
     delete rectangle;
-    cout << "----- RECTANGLE END -----" << endl;
+    cout << "----- RECTANGLE END -----" << endl << endl;
 
     cout << "----- CARRE BEGIN -----" << endl;
     Carre* carre = new Carre(6, 7, 8);
@@ -54,7 +55,7 @@ void Tests::tests_unitaires_formes()
 
     cout << "aire: " << boolToString(carre->aire() == 49) << endl;
     delete carre;
-    cout << "----- CARRE END -----" << endl;
+    cout << "----- CARRE END -----" << endl << endl;
 
     cout << "----- CERCLE BEGIN -----" << endl;
     Cercle* cercle = new Cercle(9, 10, 11);
@@ -64,7 +65,7 @@ void Tests::tests_unitaires_formes()
 
     cout << "aire: " << boolToString(round(cercle->aire()*1000)/1000 == 28.274) << endl;
     delete cercle;
-    cout << "----- CERCLE END -----" << endl;
+    cout << "----- CERCLE END -----" << endl << endl;
 }
 
 void Tests::tests_unitaires_vecteur()
@@ -104,7 +105,7 @@ void Tests::tests_unitaires_vecteur()
     formes.clear();
     cout << "clear empty vector: " << boolToString(formes.empty()) << endl;
 
-    cout << "----- VECTEUR END -----" << endl;
+    cout << "----- VECTEUR END -----" << endl << endl;
 
     delete cercle;
     delete carre;
@@ -152,7 +153,7 @@ void Tests::tests_unitaires_couche()
 
     cout << "reinit couche: " << boolToString(couche.reinitialiser()) << endl;
 
-    cout << "----- COUCHE END -----" << endl;
+    cout << "----- COUCHE END -----" << endl << endl;
 }
 
 void Tests::tests_unitaires_canevas()
@@ -175,7 +176,7 @@ void Tests::tests_unitaires_canevas()
 
     cout << "reinit canevas: " << boolToString(canevas.reinitialiser() && canevas.aire() == 0);
 
-    cout << "----- CANEVAS END -----" << endl;
+    cout << "----- CANEVAS END -----" << endl << endl;
 }
 
 void Tests::tests_unitaires()
@@ -196,7 +197,7 @@ void Tests::tests_application()
 
 void Tests::tests_application_cas_01()
 {
-   cout << "TESTS APPLICATION (CAS 01)" << endl; 
+   cout << "TESTS APPLICATION (CAS 01)" << endl;
    // Il faut ajouter les operations realisant ce scenario de test.
 
 //    filebuf fb;
@@ -219,6 +220,7 @@ void Tests::tests_application_cas_01()
 
     canevas.afficher(cout);
 
+    cout << endl;
 //    fb.close();
 }
 
@@ -249,6 +251,7 @@ void Tests::tests_application_cas_02()
 
     canevas.afficher(cout);
 
+    cout << endl;
 //    fb.close();
 }
 
@@ -273,7 +276,7 @@ void Tests::tests_validation() {
 
     canevas.afficher(cout);
 
-    cout << "aire: " << canevas.aire() << endl;
+    cout << "aire: " << canevas.aire() << endl << endl;
 
     canevas.activerCouche(0);
     canevas.ajouterForme(new Rectangle(7, 7));
@@ -287,14 +290,15 @@ void Tests::tests_validation() {
 
     canevas.afficher(cout);
 
-    cout << "aire: " << canevas.aire() << endl;
+    cout << "aire: " << canevas.aire() << endl << endl;
     canevas.retirerForme(0);
     canevas.afficher(cout);
-    cout << "aire: " << canevas.aire() << endl;
+    cout << "aire: " << canevas.aire() << endl << endl;
 
     canevas.reinitialiser();
     canevas.afficher(cout);
-    cout << "aire: " << canevas.aire() << endl;
+    cout << "aire: " << canevas.aire() << endl << endl;
 
+    cout << endl;
 //    fb.close();
 }

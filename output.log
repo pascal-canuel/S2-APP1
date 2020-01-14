@@ -1,20 +1,24 @@
 ----- FORME BEGIN -----
-get ancrage forme: FAIL
+get ancrage forme: PASS
 translate forme: PASS
 ----- FORME END -----
+
 ----- RECTANGLE BEGIN -----
 set and get hauteur: PASS
 set and get largeur: PASS
 aire: PASS
 ----- RECTANGLE END -----
+
 ----- CARRE BEGIN -----
 set and get longueur: PASS
 aire: PASS
 ----- CARRE END -----
+
 ----- CERCLE BEGIN -----
 set and get rayon: PASS
 aire: PASS
 ----- CERCLE END -----
+
 ----- VECTEUR BEGIN -----
 initial size is 0: PASS
 initial capacity is 0: PASS
@@ -30,6 +34,7 @@ valid at return element: PASS
 invalid at return nullptr: PASS
 clear empty vector: PASS
 ----- VECTEUR END -----
+
 ----- COUCHE BEGIN -----
 can't get forme when empty: PASS
 can'g remove forme when empty: PASS
@@ -51,6 +56,7 @@ aire formes: PASS
 remove forme: PASS
 reinit couche: PASS
 ----- COUCHE END -----
+
 ----- CANEVAS BEGIN -----
 add forme: PASS
 activate couche: PASS
@@ -58,6 +64,7 @@ aire canevas: PASS
 hide canevas: PASS
 remove forme: PASS
 reinit canevas: PASS----- CANEVAS END -----
+
 TESTS APPLICATION (CAS 01)
 ----- Couche 0
 Couche vide
@@ -73,6 +80,7 @@ Cercle (x=6, y=12, r=15, aire=706.858)
 Couche initialisee
 ----- Couche 4
 Couche initialisee
+
 TESTS APPLICATION (CAS 02)
 ----- Couche 0
 Rectangle (x=2, y=3, l=1, h=1, aire=1)
@@ -88,6 +96,7 @@ Cercle (x=0, y=0, r=3, aire=28.2743)
 Couche vide
 ----- Couche 4
 Couche initialisee
+
 TESTS VALIDATION
 ----- Couche 0
 Couche vide
@@ -102,6 +111,7 @@ Couche initialisee
 ----- Couche 4
 Couche initialisee
 aire: 41.1416
+
 ----- Couche 0
 Rectangle (x=7, y=7, l=1, h=1, aire=1)
 Carre (x=8, y=8, c=1, aire=1)
@@ -117,6 +127,7 @@ Couche initialisee
 ----- Couche 4
 Couche initialisee
 aire: 10.2832
+
 ----- Couche 0
 Rectangle (x=7, y=7, l=1, h=1, aire=1)
 Carre (x=8, y=8, c=1, aire=1)
@@ -131,6 +142,7 @@ Couche initialisee
 ----- Couche 4
 Couche initialisee
 aire: 9.28319
+
 ----- Couche 0
 Couche vide
 ----- Couche 1
@@ -142,3 +154,5 @@ Couche initialisee
 ----- Couche 4
 Couche initialisee
 aire: 0
+
+

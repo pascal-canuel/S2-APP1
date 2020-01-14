@@ -75,25 +75,16 @@ public:
         return size() == 0;
     }
 
-    // Todo not good
     T remove(int i) {
         if (i < 0 || i >= _size) //  throw "index out of range";
             return nullptr;
 
         _size--;
-
         T element = array[i];
-        T* prev_array = array;
-        array = new T[_size];
 
-        for (int j = 0; j < i; ++j) {
-            array[j] = prev_array[j];
+        for (int k = i; k < _size; ++k) {
+            array[k] = array[k + 1];
         }
-        for (int k = i + 1; k < _size + 1; ++k) {
-            array[k - 1] = prev_array[k];
-        }
-
-        delete [] prev_array;
 
         return element;
     }
